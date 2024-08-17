@@ -8,8 +8,8 @@ on:
       - '*'
 
 env:
-  CERC_REGISTRY_USER_KEY: ${{ secrets.CICD_LACONIC_USER_KEY }}
-  CERC_REGISTRY_BOND_ID: ${{ secrets.CICD_LACONIC_BOND_ID }}
+  CERC_REGISTRY_USER_KEY: "6772bf9c4fcda387e9ca29ed52c4bd9015ff8e24e028c0f8f8299b869decc52e"
+  CERC_REGISTRY_BOND_ID: "e4b46f52fdbaf32d86ac38989b0f52f091534cbe20eac12401d3f5cd0e27c27e"
 
 jobs:
   cns_publish:
